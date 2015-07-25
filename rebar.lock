@@ -1,0 +1,12 @@
+[{<<"rabbit_common">>,
+  {git,"git://github.com/jbrisbin/rabbit_common.git",
+       {ref,"d97ee683562b1eab5984ee90e320152b9197281f"}},
+  1},
+ {<<"jsx">>,
+  {git,"git://github.com/talentdeficit/jsx.git",
+       {ref,"46f246dc3ab45fa3229993855a0d720dd2254d4c"}},
+  0},
+ {<<"amqp_client">>,
+  {git,"git://github.com/jbrisbin/amqp_client.git",
+       {ref,"4e18a85fa362bd4fb26806388e942fa9ffef4f44"}},
+  0}].

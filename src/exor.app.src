@@ -1,0 +1,16 @@
+{application, 'exor',
+ [{description, "Workers for XOR Critters for RubyNEAT"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {mod, {'exor_app', []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {contributors, []},
+  {licenses, []},
+  {links, []}
+ ]}.
