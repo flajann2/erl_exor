@@ -4,7 +4,6 @@
 %%%-------------------------------------------------------------------
 
 -module('exor_sup').
-
 -behaviour(supervisor).
 
 %% API
@@ -29,6 +28,7 @@ start_link() ->
 
 %% Child :: {Id,StartFunc,Restart,Shutdown,Type,Modules}
 init([]) ->
+    io:fwrite("init called!!!\n\n"),
     {ok, { {one_for_all, 0, 1}, []} }.
 
 %%====================================================================
