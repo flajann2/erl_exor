@@ -9,3 +9,4 @@ RubyNEAT and evaluating them for fitness.
 ## Build
 
     $ rebar3 compile
+

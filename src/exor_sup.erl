@@ -5,6 +5,7 @@
 
 -module('exor_sup').
 -behaviour(supervisor).
+-include_lib("amqp_client/include/amqp_client.hrl").
 
 %% API
 -export([start_link/0]).

@@ -4,6 +4,7 @@
 %%%-------------------------------------------------------------------
 
 -module('exor_app').
+-include_lib("amqp_client/include/amqp_client.hrl").
 
 -behaviour(application).
 
