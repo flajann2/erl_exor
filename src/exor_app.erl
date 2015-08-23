@@ -17,7 +17,7 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
-    io:fwrite("start called!!!\n\n"),
+    io:fwrite("start App called!!!\n\n"),
     'exor_sup':start_link().
 
 %%--------------------------------------------------------------------
