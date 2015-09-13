@@ -20,7 +20,7 @@
 %%====================================================================
 
 start_link() ->
-    io:fwrite("start_link called!!!\n\n"),
+    io:fwrite("sup start_link called!!!\n\n"),
     supervisor:start_link({local, ?SERVER}, ?MODULE, []).
 
 %%====================================================================
@@ -29,7 +29,7 @@ start_link() ->
 
 %% Child :: {Id,StartFunc,Restart,Shutdown,Type,Modules}
 init([]) ->
-    io:fwrite("init called!!!\n\n"),
+    io:fwrite("sup init called!!!\n\n"),
     {ok, { {one_for_all, 0, 1}, []} }.
 
 %%====================================================================
