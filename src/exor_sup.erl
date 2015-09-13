@@ -30,7 +30,7 @@ start_link() ->
 %% Child :: {Id,StartFunc,Restart,Shutdown,Type,Modules}
 init([]) ->
     io:fwrite("sup init called!!!\n\n"),
-    {ok, { {one_for_all, 0, 1}, []} }.
+    {ok, { {one_for_one, 2, 5}, []} }.
 
 %%====================================================================
 %% Internal functions
